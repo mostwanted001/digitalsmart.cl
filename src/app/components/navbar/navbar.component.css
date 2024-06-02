@@ -1,0 +1,51 @@
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+.navbar-light .navbar-toggler{
+    color: white !important;
+}
+
+
+.header{
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url("../../../assets/ryzen-copia.png");
+    
+}
+
+.bg-1{
+    position: sticky;
+    width: 100%;
+    z-index: 2;  
+}
+
+.navbar{
+    margin-bottom: 0px !important;
+    position: absolute;
+  }
+/* media query*/
+@media only screen and (max-width:600px) {
+    header{
+        background-position: 50% 33%;
+    }
+    .navbar-light .navbar-toggler{
+        color: white !important;
+    }
+}
+
+.texto{
+    z-index: 1000;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: static;
+    padding-top: 700px;
+    font-size: 60px;
+}

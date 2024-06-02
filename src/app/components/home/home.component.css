@@ -1,0 +1,44 @@
+.servicios{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.portafolio{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+
+hr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 600px;
+    width: 90px;
+    border-top: 4px solid #fd0707;
+    position: relative;
+    opacity: 1;
+    margin-bottom: 25px;
+}
+
+.icons{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    
+}
+
+.textos-card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.imagen{
+    width: 60px;
+    height: 60px;
+}
+
+.card-border{
+    border:none !important
+}

@@ -1,0 +1,35 @@
+.fondo-imagen{
+    background: url(../../../assets/ryzen.png);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo{
+    color: aqua;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 60px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: aqua;
+}
+
+.navbar{
+    margin-bottom: 0px !important;
+    position: absolute;
+  }
+/* media query*/
+@media only screen and (max-width:600px) {
+    header{
+        background-position: 50% 33%;
+    }
+    .navbar-light .navbar-toggler{
+        color: white !important;
+    }
+}
