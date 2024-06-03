@@ -37,8 +37,32 @@ hr{
 .imagen{
     width: 60px;
     height: 60px;
+    fill: #23E6E3 !important;
 }
 
 .card-border{
     border:none !important
 }
+
+.btn-primary{
+    background-color: #23E6E3 !important ;
+    border-color: #23E6E3 !important;
+    border-radius: 30px;
+}
+
+.card-text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.card-title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
